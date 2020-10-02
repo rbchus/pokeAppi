@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header {
+    height: 120px;
+    width: 100%;
+    box-shadow:  0 2px 8px rgb(36, 29, 14) ;   /* inset  x  y  expanda color*/
+    z-index: 100;
+}
+
+.main {
+    max-width: 1200px;
+    width: 1200px;
+    margin: auto;
+    top: 120px;
+    position: relative;
+    }
+
+
+.headerStyle {
+    color: rgb(175, 238, 238);
+}
+
+.datosPersonajes {
+    margin-top: 140px;
+    margin-bottom: 60px;
+}
